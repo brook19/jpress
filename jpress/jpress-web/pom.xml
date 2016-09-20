@@ -60,11 +60,17 @@
 			<scope>compile</scope>
 		</dependency>
 
+
+		<dependency>
+			<groupId>com.baidu</groupId>
+			<artifactId>log4j-adapter</artifactId>
+			<version>1.0.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
 		<finalName>${project.artifactId}-${project.version}</finalName>
-		
+
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
